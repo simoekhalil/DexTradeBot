@@ -1,0 +1,17 @@
+{
+  "name": "gala-bot-connect-simple",
+  "version": "1.1.0",
+  "description": "Simple bot using GalaConnect API with profit-after-fee checks and use caps",
+  "type": "module",
+  "scripts": {
+    "start": "node src/bot.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.0",
+    "elliptic": "^6.5.4",
+    "js-sha3": "^0.9.3",
+    "json-stringify-deterministic": "^1.0.8",
+    "node-fetch": "^3.3.2",
+    "uuid": "^9.0.1"
+  }
+}
